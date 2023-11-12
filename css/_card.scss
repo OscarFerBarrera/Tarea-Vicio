@@ -1,0 +1,65 @@
+.card{
+    width: 60%;
+    height: 220px;
+    background-color:white;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    &__user{
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__img{
+        border-radius: 50%;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    &__name{
+        margin: 0;
+    }
+    &__work{
+        color: lightgray;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    &__name{
+        font-size: 18px;
+    }
+
+    &__title{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    &__description{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        font-size: 13px;
+        color:rgb(220, 220, 220)
+        
+     }
+    &--reverse1{
+        background-color: black;
+        color: white;
+    }
+
+    &--reverse2{
+        background-color: red;
+        color: white;
+
+    }
+}
